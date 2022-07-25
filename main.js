@@ -28,17 +28,17 @@ class HomeComponent {
             'assets/Images/kurtis/Black Suit/Black Kurti Pic 1.jpg',
             'assets/Images/kurtis/Black Suit/Black Suit Pic 2.jpg',
             'assets/Images/kurtis/Black Suit/Black Suit Pic 3.jpg',
-        ], 'Biba - Black Kurti', 'Embroided, full length and full sleeve', 'Cotton', 500, false);
+        ], 'Biba-Black Kurti', 'Embroided, full length and full sleeve', 'Cotton', 500, false);
         let kurti2 = new src_app_Model_ResponseModel_kurti_model__WEBPACK_IMPORTED_MODULE_0__.Kurti(2, [
             'assets/Images/kurtis/Peach Suit/Peach Suit Pic1.jpg',
             'assets/Images/kurtis/Peach Suit/Peach Suit Pic2.jpg',
             'assets/Images/kurtis/Peach Suit/Peach Suit Pic3.jpg',
-        ], 'W -Peach Kurti', 'Embroided, full length and full sleeve', 'Cotton', 500, false);
+        ], 'Meena-Peach Kurti', 'Embroided, full length and full sleeve', 'Cotton', 500, false);
         let kurti3 = new src_app_Model_ResponseModel_kurti_model__WEBPACK_IMPORTED_MODULE_0__.Kurti(3, [
             'assets/Images/kurtis/Sea Green Suit/Sea Green Suit Pic 1.jpg',
             'assets/Images/kurtis/Sea Green Suit/Sea Green Suit Pic 2.jpg',
             'assets/Images/kurtis/Sea Green Suit/Sea Green Suit Pic 3.jpg',
-        ], 'Meena - Sea Green Kurti', 'Embroided, full length and full sleeve', 'Cotton', 500, false);
+        ], 'W-Green Kurti', 'Embroided, full length and full sleeve', 'Cotton', 500, false);
         for (let i = 0; i < 20; i += 3) {
             kurti1.id = i;
             let copyKurti1 = Object.assign({}, kurti1);
@@ -140,7 +140,7 @@ KurtiViewComponent.ɵcmp = /*@__PURE__*/ _angular_core__WEBPACK_IMPORTED_MODULE_
     } if (rf & 2) {
         let _t;
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵqueryRefresh"](_t = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵloadQuery"]()) && (ctx.kurtiCarousel = _t.first);
-    } }, inputs: { kurti: "kurti" }, decls: 21, vars: 13, consts: [[1, "card"], [3, "pauseOnHover", "pauseOnFocus", "id", "interval", "mouseenter", "mouseleave"], ["kurtiCarousel", ""], [4, "ngFor", "ngForOf"], [1, "card-body", "bg-transparent"], [1, "fs-5"], [1, "card-text", "kurti-card-description", "faded-text"], [1, "fw-bold", "small", "mt-2"], [1, "fs-6", "pb-2"], [1, "row"], [1, "btn", "btn-sm", "faded-text", "col-3", "btn-favourite", 3, "click"], [1, "material-symbols-outlined", 3, "ngClass"], [1, "btn", "btn-sm", "app-button", "col-8", "bg-gradient"], [1, "material-symbols-outlined", "fs-5"], ["ngbSlide", ""], [1, "picsum-img-wrapper"], ["alt", "Random first slide", 1, "kurti-preview-image", 3, "src"]], template: function KurtiViewComponent_Template(rf, ctx) { if (rf & 1) {
+    } }, inputs: { kurti: "kurti" }, decls: 21, vars: 13, consts: [[1, "card"], [3, "pauseOnHover", "pauseOnFocus", "id", "interval", "mouseenter", "mouseleave"], ["kurtiCarousel", ""], [4, "ngFor", "ngForOf"], [1, "card-body", "bg-transparent"], [1, "fs-5"], [1, "card-text", "kurti-card-description", "faded-text"], [1, "fw-bold", "small", "mt-2"], [1, "fs-6", "pb-2"], [1, "row"], [1, "btn", "btn-sm", "faded-text", "col-3", "btn-favourite", 3, "click"], [1, "material-symbols-outlined", 3, "ngClass"], [1, "btn", "btn-sm", "app-button", "col-8", "bg-gradient"], [1, "material-symbols-outlined", "fs-5"], ["ngbSlide", ""], [1, "picsum-img-wrapper"], ["alt", "Random first slide", 1, "kurti-preview-image", "text-truncate", 3, "src"]], template: function KurtiViewComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "div", 0)(1, "ngb-carousel", 1, 2);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵlistener"]("mouseenter", function KurtiViewComponent_Template_ngb_carousel_mouseenter_1_listener() { return ctx.handleCarouselMouseEvent(ctx, true); })("mouseleave", function KurtiViewComponent_Template_ngb_carousel_mouseleave_1_listener() { return ctx.handleCarouselMouseEvent(ctx, false); });
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](3, KurtiViewComponent_3_Template, 1, 0, null, 3);
