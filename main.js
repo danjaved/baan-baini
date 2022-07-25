@@ -28,17 +28,17 @@ class HomeComponent {
             'assets/Images/kurtis/Black Suit/Black Kurti Pic 1.jpg',
             'assets/Images/kurtis/Black Suit/Black Suit Pic 2.jpg',
             'assets/Images/kurtis/Black Suit/Black Suit Pic 3.jpg',
-        ], 'Biba - Black Kurti', 'Embroided, full length and full sleeve', 'Cotton', 500, false);
+        ], 'Biba-Black Kurti', 'Embroided, full length and full sleeve', 'Cotton', 500, false);
         let kurti2 = new src_app_Model_ResponseModel_kurti_model__WEBPACK_IMPORTED_MODULE_0__.Kurti(2, [
             'assets/Images/kurtis/Peach Suit/Peach Suit Pic1.jpg',
             'assets/Images/kurtis/Peach Suit/Peach Suit Pic2.jpg',
             'assets/Images/kurtis/Peach Suit/Peach Suit Pic3.jpg',
-        ], 'W -Peach Kurti', 'Embroided, full length and full sleeve', 'Cotton', 500, false);
+        ], 'Meena-Peach Kurti', 'Embroided, full length and full sleeve', 'Cotton', 500, false);
         let kurti3 = new src_app_Model_ResponseModel_kurti_model__WEBPACK_IMPORTED_MODULE_0__.Kurti(3, [
             'assets/Images/kurtis/Sea Green Suit/Sea Green Suit Pic 1.jpg',
             'assets/Images/kurtis/Sea Green Suit/Sea Green Suit Pic 2.jpg',
             'assets/Images/kurtis/Sea Green Suit/Sea Green Suit Pic 3.jpg',
-        ], 'Meena - Sea Green Kurti', 'Embroided, full length and full sleeve', 'Cotton', 500, false);
+        ], 'W-Green Kurti', 'Embroided, full length and full sleeve', 'Cotton', 500, false);
         for (let i = 0; i < 20; i += 3) {
             kurti1.id = i;
             let copyKurti1 = Object.assign({}, kurti1);
